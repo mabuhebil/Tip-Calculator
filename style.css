@@ -2,16 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 body {
     background-color: #7676c2;
 }
 
+
 .container {
     position: absolute;
-    width: 400px;
+    width: 450px;
     background-color: #fff;
     top: 50%;
     left: 50%;
@@ -45,4 +46,19 @@ body {
 hr {
     border: none;
     border-bottom: 1px solid gray;
+}
+
+input[ type="range"] {
+    width: 100%;
+}
+
+.two {
+    margin-top: 40px;
+}
+
+.three {
+    margin-top: 40px;
+    background-color: #bfbfd8;
+    color: #2020d3;
+    padding: 10px 10px;
 }
